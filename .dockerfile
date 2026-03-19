@@ -1,7 +1,7 @@
 FROM nginx:alpine
 
 # Agregamos nuestra página web
-RUN echo "<h1>Hola from OpenShift CI/CD Pipeline!</h1>" > /usr/share/nginx/html/index.html
+RUN echo "<h1>Hola from guga CI/CD Pipeline!</h1>" > /usr/share/nginx/html/index.html
 
 # Exponemos el nuevo puerto
 EXPOSE 80
